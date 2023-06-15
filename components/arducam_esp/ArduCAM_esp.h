@@ -397,6 +397,8 @@ struct sensor_reg
 /* define a structure for sensor register initialization values */
 /****************************************************************/
 
+#ifdef __cplusplus
+
 class ArduCAM
 {
 public:
@@ -468,5 +470,7 @@ protected:
 	uint8_t sensor_model;
 	uint8_t sensor_addr;
 };
+
+#endif // __cplusplus
 
 #endif

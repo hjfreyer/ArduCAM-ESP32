@@ -861,7 +861,7 @@ const struct sensor_reg OV2640_1600x1200_JPEG[] =
 
 
 
-const struct sensor_reg OV2640_SVGA[]
+const struct sensor_reg OV2640_SVGA[] =
 {
 	{0xff, 0x01},
 {0x12, 0x80},

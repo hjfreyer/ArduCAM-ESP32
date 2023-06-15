@@ -1,7 +1,6 @@
 #ifndef ARDUCAM_OV2640_C
 #define ARDUCAM_OV2640_C
 
-#include <cstdint>
 #include "driver/gpio.h"
 
 #ifdef __cplusplus
